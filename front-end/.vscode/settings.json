@@ -1,7 +1,0 @@
-{
-  "emmet.syntaxProfiles": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.showSuggestionsAsSnippets": true
-}
