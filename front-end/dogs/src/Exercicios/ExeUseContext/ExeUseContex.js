@@ -1,11 +1,11 @@
 import React from 'react'
-import Produto from './Components/Produto'
 import { GlobalStorage } from './GlobalContext'
+import Produtos from './Produtos'
 
-export default function UseContext() {
+export default function ExeUseContex() {
   return (
     <GlobalStorage>
-      <Produto />
+      <Produtos />
     </GlobalStorage>
   )
 }

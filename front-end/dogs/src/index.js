@@ -7,6 +7,8 @@ import ExecComponents from './Exercicios/ExeComponents/ExecComponents';
 import ExeUseState from './Exercicios/ExeUseState/ExeUseState';
 import ExeUseEffects from './Exercicios/ExeUseEffects/ExeUseEffects';
 import UseContext from './Exercicios/UseContext/UseContext';
+import ExeUseContext from './Exercicios/ExeUseContext/ExeUseContex';
+import CustomHooks from './Exercicios/CustomHooks/CustomHooks'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +18,9 @@ ReactDOM.render(
     {/* <ExecComponents /> */}
     {/* <ExeUseState /> */}
     {/* <ExeUseEffects /> */}
-    <UseContext />
+    {/* <UseContext /> */}
+    {/* <ExeUseContext /> */}
+    <CustomHooks />
   </React.StrictMode>,
   document.getElementById('root')
 );
