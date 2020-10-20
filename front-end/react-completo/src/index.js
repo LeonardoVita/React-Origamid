@@ -1,26 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+
+// EXERCICIOS
+
 import ExecJSX1 from './Exercicios/ExecJSX1';
 import ExecJSXArrays from './Exercicios/ExecJSXArrays';
-import App from './App';
 import ExecComponents from './Exercicios/ExeComponents/ExecComponents';
-import ExeUseState from './Exercicios/ExeUseState/ExeUseState';
-import ExeUseEffects from './Exercicios/ExeUseEffects/ExeUseEffects';
-import UseContext from './Exercicios/UseContext/UseContext';
-import ExeUseContext from './Exercicios/ExeUseContext/ExeUseContex';
-import CustomHooks from './Exercicios/CustomHooks/CustomHooks'
+
+//  HOOKS 
+
+import ExeUseState from './Exercicios/Hooks/ExeUseState/ExeUseState';
+import ExeUseEffects from './Exercicios/Hooks/ExeUseEffects/ExeUseEffects';
+import UseContext from './Exercicios/Hooks/UseContext/UseContext';
+import ExeUseContext from './Exercicios/Hooks/ExeUseContext/ExeUseContex';
+import CustomHooks from './Exercicios/Hooks/CustomHooks/CustomHooks'
 
 ReactDOM.render(
   <React.StrictMode>
+
+    <App />
     {/* <ExecJSX1 /> */}
     {/* <ExecJSXArrays /> */}
-    {/* <App /> */}
     {/* <ExecComponents /> */}
+
     {/* <ExeUseState /> */}
     {/* <ExeUseEffects /> */}
     {/* <UseContext /> */}
     {/* <ExeUseContext /> */}
-    <CustomHooks />
+    {/* <CustomHooks /> */}
+
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );

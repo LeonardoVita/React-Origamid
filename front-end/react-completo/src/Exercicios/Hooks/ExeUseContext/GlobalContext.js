@@ -24,7 +24,7 @@ export function GlobalStorage({ children }) {
   }, [])
 
   return (
-    <GlobalContext.Provider value={{ produto, setProduto, limparDados }}>
+    <GlobalContext.Provider value={{ produto, limparDados }}>
       {children}
     </GlobalContext.Provider>
   )

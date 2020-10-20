@@ -1,5 +1,4 @@
 import React from 'react'
-import Produto from '../ExeComponents/components/Produto'
 import Modal from './Components/Modal'
 
 export default function ExeUseEffects() {

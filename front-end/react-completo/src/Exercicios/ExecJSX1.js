@@ -14,6 +14,7 @@ const luana = {
   ],
   ativa: true,
 }
+console.log(luana)
 
 const mario = {
   cliente: 'Mario',
