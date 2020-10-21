@@ -14,7 +14,6 @@ const luana = {
   ],
   ativa: true,
 }
-console.log(luana)
 
 const mario = {
   cliente: 'Mario',
@@ -33,6 +32,7 @@ const ExecJSX1 = () => {
   const comprasArray = dados.compras.map(item => parseInt(item.preco.replace('R$ ', '')))
   const total = comprasArray.reduce((total, item) => total + item)
   console.log({ comprasArray, total })
+  console.log({ luana })
 
   return (
     <>
