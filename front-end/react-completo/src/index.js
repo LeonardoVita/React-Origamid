@@ -20,6 +20,9 @@ import CustomHooks from './Exercicios/Hooks/CustomHooks/CustomHooks'
 // Inputs
 
 import ExecInput from './Exercicios/ExecInput'
+import RadioInput from './Exercicios/Inputs/RadioInput';
+import CheckInput from './Exercicios/Inputs/CheckInput';
+import InputComponents from './Exercicios/Inputs/InputComponents/InputComponents';
 
 
 ReactDOM.render(
@@ -33,11 +36,15 @@ ReactDOM.render(
     {/* <ExeUseState /> */}
     {/* <ExeUseEffects /> */}
     {/* <UseContext /> */}
-    <UseRef />
+    {/* <UseRef /> */}
     {/* <ExeUseContext /> */}
     {/* <CustomHooks /> */}
 
     {/* <ExecInput /> */}
+    {/* <RadioInput /> */}
+    {/* <CheckInput /> */}
+
+    <InputComponents />
 
   </React.StrictMode>,
   document.getElementById('root')
