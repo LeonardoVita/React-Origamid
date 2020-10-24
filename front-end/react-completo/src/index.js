@@ -27,6 +27,11 @@ import InputValidacao from './Exercicios/Inputs/inputValidacao/InputValidacao';
 import InputHook from './Exercicios/Inputs/InputHook/InputHook';
 import ExecInputs from './Exercicios/Inputs/ExecInputs/ExecInputs';
 
+//CSS 
+import CssStyles from './Exercicios/CssStyles/CssStyles'
+import Animations from './Exercicios/Animations/Animations';
+import ExecAnimations from './Exercicios/ExecAnimations/ExecAnimations';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -47,10 +52,14 @@ ReactDOM.render(
     {/* <RadioInput /> */}
     {/* <CheckInput /> */}
 
-    {/* <InputComponents />*/}
+    {/* <InputComponents /> */}
     {/* <InputValidacao /> */}
     {/* <InputHook /> */}
-    <ExecInputs />
+    {/* <ExecInputs /> */}
+
+    {/* <CssStyles /> */}
+    {/* <Animations /> */}
+    <ExecAnimations />
 
   </React.StrictMode>,
   document.getElementById('root')
