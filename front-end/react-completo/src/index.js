@@ -23,6 +23,9 @@ import ExecInput from './Exercicios/ExecInput'
 import RadioInput from './Exercicios/Inputs/RadioInput';
 import CheckInput from './Exercicios/Inputs/CheckInput';
 import InputComponents from './Exercicios/Inputs/InputComponents/InputComponents';
+import InputValidacao from './Exercicios/Inputs/inputValidacao/InputValidacao';
+import InputHook from './Exercicios/Inputs/InputHook/InputHook';
+import ExecInputs from './Exercicios/Inputs/ExecInputs/ExecInputs';
 
 
 ReactDOM.render(
@@ -44,7 +47,10 @@ ReactDOM.render(
     {/* <RadioInput /> */}
     {/* <CheckInput /> */}
 
-    <InputComponents />
+    {/* <InputComponents />*/}
+    {/* <InputValidacao /> */}
+    {/* <InputHook /> */}
+    <ExecInputs />
 
   </React.StrictMode>,
   document.getElementById('root')
