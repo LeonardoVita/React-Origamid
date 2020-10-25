@@ -32,6 +32,10 @@ import CssStyles from './Exercicios/CssStyles/CssStyles'
 import Animations from './Exercicios/Animations/Animations';
 import ExecAnimations from './Exercicios/ExecAnimations/ExecAnimations';
 
+//react router dom
+import RouterDom from './Exercicios/RouterDom/RouterDom'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -59,7 +63,9 @@ ReactDOM.render(
 
     {/* <CssStyles /> */}
     {/* <Animations /> */}
-    <ExecAnimations />
+    {/* <ExecAnimations /> */}
+
+    <RouterDom />
 
   </React.StrictMode>,
   document.getElementById('root')
