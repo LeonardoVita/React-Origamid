@@ -17,14 +17,14 @@ export default function Produto() {
     fetchData();
   },[])
 
-  if(produto === null ) return <span>Carregando...</span>
+  if(produto === null ) return <div className="loading"></div>
 
-  return (
+  return (    
     <div className={styles.content}>
       <Head title={params.id} Description={`Descrição do produto ${params.id}`}/>  
       <div>
         {
-          produto.fotos.map(foto => <img key={foto} src={foto.src} title={foto.titulo} className={styles.img}/>)
+          produto.fotos.map(foto => <img key={foto.src} src={foto.src} title={foto.titulo} className={styles.img}/>)
         }
       </div>
       <div className={styles.infos}>

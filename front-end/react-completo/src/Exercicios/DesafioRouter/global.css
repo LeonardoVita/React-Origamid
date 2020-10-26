@@ -7,3 +7,19 @@
 #content {
   width: 60vw;
 }
+
+.loading {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-right-color: transparent;
+  animation: loading 1s forwards;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}

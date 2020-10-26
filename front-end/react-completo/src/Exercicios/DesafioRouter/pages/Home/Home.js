@@ -16,7 +16,7 @@ export default function Home() {
     fetchData();
   },[])
 
-  if(produtos === null) return <span>Carregando...</span>
+  if(produtos === null) return <div className="loading"></div>
 
   return (
     <>
