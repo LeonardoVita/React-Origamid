@@ -1,0 +1,36 @@
+.produtoUl {
+  /* margin: 0; */
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: anime 0.4s forwards;
+}
+
+@keyframes anime {
+  from {
+  }
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.produtoLi {
+  /* width: 18vw; */
+  list-style: none;
+  margin-right: 2vw;
+}
+.produtoLi:last-child {
+  margin-right: 0;
+}
+
+.produtoImg {
+  width: 18vw;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px #888;
+}

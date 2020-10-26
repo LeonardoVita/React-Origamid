@@ -34,6 +34,7 @@ import ExecAnimations from './Exercicios/ExecAnimations/ExecAnimations';
 
 //react router dom
 import RouterDom from './Exercicios/RouterDom/RouterDom'
+import DesafioRouter from './Exercicios/DesafioRouter/DesafioRouter';
 
 
 
@@ -65,7 +66,8 @@ ReactDOM.render(
     {/* <Animations /> */}
     {/* <ExecAnimations /> */}
 
-    <RouterDom />
+    {/* <RouterDom /> */}
+    <DesafioRouter />
 
   </React.StrictMode>,
   document.getElementById('root')
