@@ -56,15 +56,15 @@ export default function InputComponents() {
       <h2>Checkbox</h2>
       <Checkbox
         options={['Javascript', 'Php', 'Ruby']}
-        value={termos}
-        setValue={setTermos}
+        value={linguagem}
+        setValue={setLinguagem}
       />
 
       <h2>Termos</h2>
       <Checkbox
         options={['li e aceito os termos.']}
-        value={linguagem}
-        setValue={setLinguagem}
+        value={termos}
+        setValue={setTermos}
       />
 
       <button type="submit">Enviar</button>

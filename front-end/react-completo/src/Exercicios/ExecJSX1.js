@@ -28,7 +28,7 @@ const mario = {
 }
 
 const ExecJSX1 = () => {
-  const dados = mario
+  const dados = luana
   const comprasArray = dados.compras.map(item => parseInt(item.preco.replace('R$ ', '')))
   const total = comprasArray.reduce((total, item) => total + item)
   console.log({ comprasArray, total })

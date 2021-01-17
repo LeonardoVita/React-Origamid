@@ -35,6 +35,9 @@ import ExecAnimations from './Exercicios/ExecAnimations/ExecAnimations';
 //react router dom
 import RouterDom from './Exercicios/RouterDom/RouterDom'
 import DesafioRouter from './Exercicios/DesafioRouter/DesafioRouter';
+import PropTypes from './Exercicios/PropTypes/PropTypes';
+import LazySuspense from './Exercicios/LazySuspense/LazySuspense';
+import Reducer from './Exercicios/Reducer/Reducer';
 
 
 
@@ -67,7 +70,10 @@ ReactDOM.render(
     {/* <ExecAnimations /> */}
 
     {/* <RouterDom /> */}
-    <DesafioRouter />
+    {/* <DesafioRouter /> */}
+    <PropTypes />
+    {/* <LazySuspense /> */}
+    {/* <Reducer /> */}
 
   </React.StrictMode>,
   document.getElementById('root')

@@ -4,7 +4,7 @@ export default function useLocalStorage(key, inicial) {
 
   const [state, setState] = React.useState(() => {
     const local = window.localStorage.getItem(key);
-    return local ? local : inicial;
+    return local ? local : inicial; //se local igual a null então salva vazio ""
   });
 
   React.useEffect(() => {

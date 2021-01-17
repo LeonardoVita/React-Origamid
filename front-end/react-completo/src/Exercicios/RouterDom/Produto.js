@@ -16,7 +16,7 @@ export default function Produto() {
       <nav>
         <NavLink to="">Descrição</NavLink> {' - '}
         <NavLink to="avaliacao">Avaliação</NavLink> {' - '}
-        <NavLink to="customizado">Descrição</NavLink>
+        <NavLink to="customizado">Customização</NavLink>
       </nav>
       <Outlet /> 
     </div>

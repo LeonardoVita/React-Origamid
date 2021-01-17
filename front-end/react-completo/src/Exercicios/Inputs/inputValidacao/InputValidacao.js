@@ -5,20 +5,12 @@ import Radio from './components/Radio'
 import Select from './components/Select'
 
 export default function InputComponents() {
-
-  const [nome, setNome] = React.useState('')
-  const [email, setEmail] = React.useState('')
+  
   const [cep, setCep] = React.useState('')
-  const [produto, setProduto] = React.useState('')
-  const [cor, setCor] = React.useState('Vermelho')
-  const [fruta, setFruta] = React.useState('')
-  const [linguagem, setLinguagem] = React.useState([])
-  const [termos, setTermos] = React.useState([])
-
   const [error, setError] = React.useState(null)
 
 
-  function validadeCep(value) {
+  function validateCep(value) {
     if (value.length === 0) {
       setError('Preencha um valor')
       return false
@@ -34,17 +26,17 @@ export default function InputComponents() {
   function handleBlur({ target }) {
     // const regex = /^\d{5}-?\d{3}$/
     // const validate = regex.test(target.value)
-    validadeCep(target.value)
+    validateCep(target.value)
   }
 
   function handleChange({ target }) {
-    if (error) validadeCep(target.value)
+    if (error) validateCep(target.value)
     setCep(target.value)
   }
 
   function handleSubmit(e) {
     e.preventDefault()
-    if (validadeCep(cep)) {
+    if (validateCep(cep)) {
       console.log('enviou')
     } else {
       console.log('erro no envio')

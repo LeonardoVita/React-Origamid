@@ -5,7 +5,7 @@ import Chat from './components/Chat'
 export default function UseRef() {
   return (
     <>
-      <Chat />
+      {/* <Chat /> */}
       <Cart />
     </>
   )
